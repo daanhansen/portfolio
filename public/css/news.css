@@ -1,0 +1,51 @@
+h2 {
+    margin-top: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.artimg {
+    height: 15vh;
+}
+
+.contentholder {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.newsitem {
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 0 auto;
+    float: left;
+    display: block;
+    width: 90%;
+    margin-bottom: 10vh;
+    border: 2px black solid;
+}
+
+#artul {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Tablet */
+    .newsitem {
+        width: 40%;
+    }
+    .contentholder {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    /* Desktop */
+    .newsitem {
+        width: 30%;
+    }
+    .contentholder {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  margin: 0px;
+  padding: 0px;
+}
+ #bw {
+     display: block;
+     height: 4em;
+     width: auto;
+     background-size:contain;
+     background-repeat: repeat-x;
+     background-image: url(../img/bwire.png);
+ }
+
+$mainfont : Poppins;
+
+.onPhoneClosed {
+
+}
+.onPhoneOpen {
+
+}
+
+nav {
+  margin-top: 0px;
+  height: 6em;
+  background-color: red;
+  margin-top: 0;
+  #navlist {
+      margin-top: 0px;
+      display: block;
+      li {
+        margin: 0;
+        background-color: blue;
+        display: block;
+        height: 100%;
+        width: auto;
+      }
+  }
+}

@@ -1,0 +1,127 @@
+/*
+Mobile
+------------------------------*/
+@media only screen and (min-device-width : 0px) and (max-device-width : 549px) {
+	/* Container */
+	.container {min-width: 85%;}
+
+	/* Row */
+	.row {width: 100%; margin: 2% 0;}
+
+	/* Grid System */
+	.column, .columns {margin: 1% 2.5%!important;}
+	.one.column,
+	.one.columns	{min-width: 95%;}
+	.two.columns	{min-width: 95%;}
+	.three.columns	{min-width: 95%;}
+	.four.columns	{min-width: 95%;}
+	.five.columns	{min-width: 95%;}
+	.six.columns	{min-width: 95%;}
+	.seven.columns	{min-width: 95%;}
+	.eight.columns	{min-width: 95%;}
+	.nine.columns	{min-width: 95%;}
+	.ten.columns	{max-width: 95% !important;}
+	/* Special column sizes*/
+	.one-third.column,
+	.one-third.columns 	{min-width: 95%;}
+	.one-fourth.column,
+	.one-fourth.columns {min-width: 95%;}
+
+	/* Offset */
+	.offsetOne,
+	.offsetTwo,
+	.offsetThree,
+	.offsetFour,
+	.offsetFive,
+	.offsetSix,
+	.offsetSeven,
+	.offsetEight,
+	.offsetNine {margin: 2.5% !important;}
+
+	/* Text Scaling */
+	p 	{font-size: 14px !important;}
+	h6 	{font-size: 16px !important; line-height: 2;}
+	h5 	{font-size: 18px !important; line-height: 2;}
+	h4 	{font-size: 20px !important; line-height: 2;}
+	h3 	{font-size: 22px !important; line-height: 2;}
+	h2 	{font-size: 24px !important; line-height: 2;}
+	h1 	{font-size: 26px !important; line-height: 2;}
+
+	.content h5		{font-size: 18px !important; font-weight: 500 !important; line-height: 1 !important;}
+	.content h6 	{font-size: 14px !important; font-weight: 400 !important; line-height: 1.2;}
+	.cardDesc h5 	{font-size: 12px !important;}
+	.cardDesc h6 	{font-size: 12px !important;}
+	.footer 		{text-align: center; margin: 0 auto;}
+	.featureDesc	{min-width: 100%; margin: 0 0 20% 0 !important;}
+	.picList 		{max-height: 250px; bottom: -10%;}
+	.picList.normalScale img{width: 110%; left: -5%; top: 0;}
+	.picList.normalScale	{max-height: 143px; padding: 10% 0 0 0;}
+	.article		{min-width: 90%;}
+
+	/* Table */
+	table {
+		overflow-x: auto;
+		box-sizing: border-box;
+		display: block;}
+	table tr td:last-child {/*Hier moet nog een fix komen voor de table icons*/}
+
+}
+
+
+/*
+Tablet
+------------------------------*/
+@media only screen and (min-device-width : 550px) and (max-device-width : 1024px) {
+
+	/* Grid System */
+	.row {width: 100%; margin: 4% 0;}
+	.one.column,
+	.one.columns	{min-width: 48%; margin: 1%;}
+	.two.columns	{min-width: 48%; margin: 1%;}
+	.three.columns	{min-width: 48%; margin: 1%;}
+	.four.columns	{min-width: 48%; margin: 1%;}
+	.five.columns	{max-width: 48%; margin: 1%;}
+	.six.columns	{max-width: 48%; margin: 1%;}
+	.seven.columns	{max-width: 48%; margin: 1%;}
+	.eight.columns	{max-width: 48%; margin: 1%;}
+	.nine.columns	{max-width: 48%; margin: 1%;}
+	.ten.columns	{max-width: 100%;margin: 1% 0;}
+	/* Special column sizes*/
+	.one-third.column,
+	.one-third.columns 	{width: 32.33%;}
+	.one-fourth.column,
+	.one-fourth.columns {min-width: 48%; margin: 1%;}
+
+	/* Offset */
+	.offsetOne,
+	.offsetTwo,
+	.offsetThree,
+	.offsetFour,
+	.offsetFive,
+	.offsetSix,
+	.offsetSeven,
+	.offsetEight,
+	.offsetNine {margin: 0 !important;}
+
+	/* Text Scaling */
+	p 	{font-size: 14px;}
+	h6 	{font-size: 16px !important; line-height: 2;}
+	h5 	{font-size: 18px !important; line-height: 2;}
+	h4 	{font-size: 20px !important; line-height: 2;}
+	h3 	{font-size: 22px !important; line-height: 2;}
+	h2 	{font-size: 26px !important; line-height: 2;}
+	h1 	{font-size: 30px !important; line-height: 2;}
+
+	.article		{min-width: 90%;}
+	.featureDesc	{min-width: 100%; margin: 0 0 20% 0 !important;}
+	.picList 		{max-height: 275px; bottom: -10%;}
+}
+
+
+
+
+/*
+Desktop
+------------------------------*/
+@media only screen and (min-device-width : 1025px) {
+}
